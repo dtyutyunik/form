@@ -23,11 +23,11 @@ export const NewGoal = ({ onAddGoal }: NewGoalProps) => {
         <form onSubmit={handleSubmit}>
             <p>
                 <label htmlFor="goal">Your Goal</label>
-                <input id="goal" type="text" ref={goal} />
+                <input id="goal" type="text" required ref={goal} />
             </p>
             <p>
                 <label htmlFor="summary">Short Summary</label>
-                <input id="summary" type="text" ref={summary} />
+                <input id="summary" type="text" required ref={summary} />
             </p>
             <button>Add Goal</button>
         </form>

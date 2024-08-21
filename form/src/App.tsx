@@ -40,6 +40,7 @@ function App() {
       <NewGoal onAddGoal={handleAddGoal} />
       <CourseGoalList goals={goals} onDeleteGoal={handleDeleteGoal} />
 
+
     </main>
 
   );

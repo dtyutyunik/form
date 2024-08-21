@@ -16,8 +16,8 @@ export const CourseGoal: FC<CourseGoalProps> = ({ title, description, onDelete, 
     return (
         <article>
             <div>
-                <h2>Title {title}</h2>
-                <p>Description {description}</p>
+                <h2>{title}</h2>
+                <p>{description}</p>
             </div>
             <p>{children}</p>
             <button onClick={() => onDelete(id)}>Delete</button>
